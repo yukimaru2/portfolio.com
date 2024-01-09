@@ -505,6 +505,7 @@ input[type="image"] {
       margin-top: 10px;
        
 }
+   
     
     
     .merchandise ul li {
@@ -515,50 +516,59 @@ input[type="image"] {
     }
   
     .price {
-        margin-left: 23px;
+        margin-left: 100px;
+        
     }
     
-  
+  .name_1 {
+    font-size: 1.2rem;
+      margin-left: 95px;
+}
+    
+   
+.price_1 {
+     margin-left: 100px;
 }
 
+    
+    
+}
+
+/*media*/
 
 .name {
     margin-bottom: 0;
-    padding-left: 45px;
-    padding-top: 10px;
+    padding-top: 30px;
     font-size: 1.2rem;
+   
 }
 
 .tea-name {
     margin-bottom: 0;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 30px;
     font-size: 1.2rem;
 }
 
 .name_1 {
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 1.2rem;
 }
 
 .price {
-    font-size: 1.2rem;
-    padding-left: 45px;
+    font-size: 1.8rem;
 }
 .price_1 {
-     font-size: 1.2rem;
+     font-size: 1.8rem;
 }
 
 .tea-price {
     font-size: 1.2rem;
-    padding-left: 20px;
 }
 
 .merchandise ul li p {
-  padding-left: 45px;
     padding-top: 5px;
-    width: 220px;
+    width: 280px;
     padding-bottom: 30px;
    
 }
@@ -670,17 +680,16 @@ width: 65%;
     }
     
     .tea-price {
-    font-size: 1.2rem;
-    padding-left: 23px;
+    font-size: 1.8rem;
+    padding-left: 80px;
 }
-    
-    .tea-name {
-        padding-top: 18px;
+    .senbei {
+        margin-left: 80px;
+        font-size: 21px;
     }
+    
 
-    .name_1 {
-    padding-top: 18px;
-}
+    
     .merchandise_1 ul li p {
     width: 290px;
         padding-top: 10px;
