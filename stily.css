@@ -296,6 +296,7 @@ input[type="image"] {
 
 .sub_ttl_1 img {
     width: 30%;
+    
 }
 
 .sub_ttl_1 {
@@ -348,7 +349,8 @@ input[type="image"] {
     border: solid 1px #70665d;
     border-radius: 30px;
     width: 700px;
-   margin: 120px 0 120px 400px;
+   margin: 120px auto;
+    text-align: center;
 }
 
 .content {
@@ -538,50 +540,82 @@ input[type="image"] {
 
 .name {
     margin-bottom: 0;
-    padding-top: 30px;
-    font-size: 1.2rem;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    width: 180px;
+    text-align: center;
+    margin-left: 38px;
    
 }
 
 .tea-name {
     margin-bottom: 0;
-    padding-top: 30px;
-    font-size: 1.2rem;
+    padding-top: 22px;
+    margin-left: 20px;
+    font-size: 1rem;
 }
-
+.senbei {
+    margin-left: 80px;
+    font-size: 1.1rem;
+}
 .name_1 {
     margin-bottom: 0;
-    margin-top: 30px;
-    font-size: 1.2rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-left: 90px;
+}
+
+.name_2 {
+     margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-left: 100px;
 }
 
 .price {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-left: 90px;
+    border-bottom: 1px solid #333;
+   
+        
 }
 .price_1 {
-     font-size: 1.8rem;
+     font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+     margin-left: 110px;
 }
+
 
 .tea-price {
     font-size: 1.2rem;
+   margin-left: 90px;
+    border-bottom: 1px solid #333;
+}
+
+.senbei_price {
+      font-size: 1.2rem;
+   margin-left: 90px;
+    border-bottom: 1px solid #333;
+
 }
 
 .merchandise ul li p {
-    padding-top: 5px;
-    width: 280px;
+    padding-top: 30px;
+    width: 230px;
     padding-bottom: 30px;
+    text-align: center;
    
 }
 
 #tea ul li p {
-    padding-left: 20px;
-    padding-top: 10px;
-    width: 230px;
+    padding-top: 30px;
+    margin-left: 10px;
+    width: 250px;
 }
 
 .merchandise_1 ul li p {
-    width: 200px;
-    padding-top: 5px;
+    width: 290px;
+    padding-top: 30px;
     margin-bottom: 30px;
     
 }
@@ -592,11 +626,11 @@ input[type="image"] {
 }
 
 #tea img {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .kashi_img img {
     
-width: 65%;
+width: 80%;
 }
 
 #tea ul {
@@ -609,6 +643,7 @@ width: 65%;
     
     width: 13%;
     margin-left: 60px;
+    padding-top:  20px;
 }
 
 
@@ -647,7 +682,7 @@ width: 65%;
 @media (max-width: 700px) {
     
     #tea ul li p {
-    padding: 10px 0 30px 22px;
+    padding: 20px 0 30px 22px;
         width: 250px;
 }
     
@@ -661,6 +696,7 @@ width: 65%;
     }
     
    
+   
     .kashi_img img {
         width: 90%;
         margin-right: 40px;
@@ -672,7 +708,7 @@ width: 65%;
     
     .kasi img {
         width: 50%;
-        margin-left: 80px;
+        margin-left: 95px;
     }
     .tea img {
         width: 80%;
@@ -681,10 +717,9 @@ width: 65%;
     
     .tea-price {
     font-size: 1.8rem;
-    padding-left: 80px;
+   margin-left: 90px;
 }
     .senbei {
-        margin-left: 80px;
         font-size: 21px;
     }
     
